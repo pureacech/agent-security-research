@@ -15,7 +15,7 @@ Reporter: [@pureacech](https://github.com/pureacech)
 |----|-------|
 | https://github.com/nlyrthiia/taskboard-api/pull/1 | merged |
 | https://github.com/nlyrthiia/move-examples-gallery/pull/1 | merged |
-| https://github.com/kkkycocho/stc-notes/pull/1 | **open** (merge later → 3rd GHSA) |
+| https://github.com/kkkycocho/stc-notes/pull/1 | open |
 
 ## Third-party reports (MCP / agent)
 
