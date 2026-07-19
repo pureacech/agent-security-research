@@ -1,27 +1,24 @@
 # skills-supply-chain
 
-Static scanner for **Agent Skills** packages (`SKILL.md` + scripts).
+Standalone static scanner for Agent Skill packages (`SKILL.md` + companion scripts).
 
-## What it catches
+Not derived from any third-party product scanner. Regex / heuristics only.
 
-- Pipe-to-shell / destructive shell patterns
+## Catches
+
+- Pipe-to-shell and destructive shell patterns
 - `shell=True` / `os.system` / `child_process.exec`
-- Secret path / env credential references
+- Secret-path / env credential hints
 - Prompt-injection style instruction overrides
-- Dual-use content labels (pentest/bypass/C2) as **info**, not CVE claims
-
-## What it does **not** do
-
-- Assign CVEs to “this skill teaches Android pentesting”
-- Replace runtime audit of MCP servers / web apps (Track A)
+- Dual-use labels (info only — not a CVE claim)
 
 ## Usage
 
 ```bash
-python scan_skill.py ../../vendor/DragonJAR-Android-Pentesting-Skill
-python scan_skill.py --json ../../vendor/skills-cli
+python scan_skill.py path/to/skill-dir
+python scan_skill.py --json path/to/SKILL.md
 ```
 
-## CVE path reminder
+## Note
 
-Runtime CVEs usually live in **executable servers and apps**, not markdown playbooks. Use this tool to triage the skills ecosystem; escalate only when scripts implement a real vulnerable sink.
+Runtime CVEs usually live in servers and apps, not markdown playbooks. Escalate only when scripts implement a real sink.
