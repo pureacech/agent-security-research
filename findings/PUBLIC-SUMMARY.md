@@ -11,7 +11,7 @@ Reporter: [@pureacech](https://github.com/pureacech)
 | TP-01 | experiments-ml | 78 | [issue](https://github.com/romanthekat/experiments-ml/issues/1) |
 | TP-03 | Cognitive-Reflex-Agent | 22, 918 | [issue](https://github.com/sushant097/Cognitive-Reflex-Agent/issues/1) |
 | TP-04 | mockloop-mcp | 918 | [issue](https://github.com/MockLoop/mockloop-mcp/issues/123) |
-| TP-05 | gmx-vmd-mcp | 78 | [issue](https://github.com/egtai/gmx-vmd-mcp/issues/1) |
+| TP-05 | gmx-vmd-mcp | 78 | [issue](https://github.com/egtai/gmx-vmd-mcp/issues/3) |
 
 ## Fix PRs (authored as pureacech)
 
