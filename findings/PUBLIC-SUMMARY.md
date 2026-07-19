@@ -2,25 +2,29 @@
 
 Reporter: [@pureacech](https://github.com/pureacech)
 
-## External reports
+## GHSA (repository advisories)
 
-| ID | Project | CWE | Link |
-|----|---------|-----|------|
-| VA-01 / VA-02 | VirtualAssistant | 78, 918 | [issue](https://github.com/Axshatt/VirtualAssistant/issues/2) |
-| MF-01 | moviefiesta | 89 | [issue](https://github.com/AnaghaSPrasad/moviefiesta/issues/1) |
-| TP-01 | experiments-ml | 78 | [issue](https://github.com/romanthekat/experiments-ml/issues/1) |
-| TP-03 | Cognitive-Reflex-Agent | 22, 918 | [issue](https://github.com/sushant097/Cognitive-Reflex-Agent/issues/1) |
-| TP-04 | mockloop-mcp | 918 | [issue](https://github.com/MockLoop/mockloop-mcp/issues/123) |
-| TP-05 | gmx-vmd-mcp | 78 | [issue](https://github.com/egtai/gmx-vmd-mcp/issues/3) |
+| GHSA | Repo | State | Link |
+|------|------|-------|------|
+| GHSA-v78j-8h66-mcpr | taskboard-api | **draft — publish in UI** | https://github.com/nlyrthiia/taskboard-api/security/advisories/GHSA-v78j-8h66-mcpr |
+| GHSA-5j2j-6hf6-pxq9 | move-examples-gallery | **draft — publish in UI** | https://github.com/nlyrthiia/move-examples-gallery/security/advisories/GHSA-5j2j-6hf6-pxq9 |
+| (pending) | stc-notes | after PR merge | https://github.com/kkkycocho/stc-notes/pull/1 |
 
-## Fix PRs (authored as pureacech)
+## External reports (pureacech)
 
-| ID | CWE | PR | Merge |
-|----|-----|-----|-------|
-| EX-01 | 22 | [move-examples-gallery#1](https://github.com/nlyrthiia/move-examples-gallery/pull/1) | merged |
-| TB-01/02 | 22, 78 | [taskboard-api#1](https://github.com/nlyrthiia/taskboard-api/pull/1) | merged |
-| SN-01/02 | 22, 78 | [stc-notes#1](https://github.com/kkkycocho/stc-notes/pull/1) | open — merge later |
+| Project | Link |
+|---------|------|
+| experiments-ml | https://github.com/romanthekat/experiments-ml/issues/1 |
+| Cognitive-Reflex-Agent | https://github.com/sushant097/Cognitive-Reflex-Agent/issues/1 |
+| mockloop-mcp | https://github.com/MockLoop/mockloop-mcp/issues/123 |
+| VirtualAssistant | https://github.com/Axshatt/VirtualAssistant/issues/2 |
+| moviefiesta | https://github.com/AnaghaSPrasad/moviefiesta/issues/1 |
+| gmx-vmd-mcp | https://github.com/egtai/gmx-vmd-mcp/issues/3 |
 
-## CVP draft
+## Fix PRs
 
-Local (not published): `work/cvp-Q1-Q4-draft.md`
+| PR | State |
+|----|-------|
+| https://github.com/nlyrthiia/move-examples-gallery/pull/1 | merged |
+| https://github.com/nlyrthiia/taskboard-api/pull/1 | merged |
+| https://github.com/kkkycocho/stc-notes/pull/1 | open |
