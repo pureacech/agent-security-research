@@ -8,3 +8,6 @@ work/
 .DS_Store
 tools/**/samples/
 *.local.*
+
+work/
+cvp-Q1-Q4-draft.md

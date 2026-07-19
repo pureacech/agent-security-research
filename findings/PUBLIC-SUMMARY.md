@@ -11,6 +11,7 @@ Reporter: [@pureacech](https://github.com/pureacech)
 | TP-01 | experiments-ml | 78 | [issue](https://github.com/romanthekat/experiments-ml/issues/1) |
 | TP-03 | Cognitive-Reflex-Agent | 22, 918 | [issue](https://github.com/sushant097/Cognitive-Reflex-Agent/issues/1) |
 | TP-04 | mockloop-mcp | 918 | [issue](https://github.com/MockLoop/mockloop-mcp/issues/123) |
+| TP-05 | gmx-vmd-mcp | 78 | [issue](https://github.com/egtai/gmx-vmd-mcp/issues/1) |
 
 ## Fix PRs (authored as pureacech)
 
@@ -18,4 +19,8 @@ Reporter: [@pureacech](https://github.com/pureacech)
 |----|-----|-----|-------|
 | EX-01 | 22 | [move-examples-gallery#1](https://github.com/nlyrthiia/move-examples-gallery/pull/1) | merged |
 | TB-01/02 | 22, 78 | [taskboard-api#1](https://github.com/nlyrthiia/taskboard-api/pull/1) | merged |
-| SN-01/02 | 22, 78 | [stc-notes#1](https://github.com/kkkycocho/stc-notes/pull/1) | **open — awaiting maintainer** |
+| SN-01/02 | 22, 78 | [stc-notes#1](https://github.com/kkkycocho/stc-notes/pull/1) | open — merge later |
+
+## CVP draft
+
+Local (not published): `work/cvp-Q1-Q4-draft.md`
