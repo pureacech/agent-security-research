@@ -1,0 +1,10 @@
+﻿targets/
+vendor/
+work/
+**/__pycache__/
+*.pyc
+.env
+*.log
+.DS_Store
+tools/**/samples/
+*.local.*
